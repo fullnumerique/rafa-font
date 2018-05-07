@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?mrx87a');
-  src:  url('fonts/icomoon.eot?mrx87a#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?mrx87a') format('truetype'),
-    url('fonts/icomoon.woff?mrx87a') format('woff'),
-    url('fonts/icomoon.svg?mrx87a#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?tq53u0');
+  src:  url('fonts/icomoon.eot?tq53u0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?tq53u0') format('woff2'),
+    url('fonts/icomoon.ttf?tq53u0') format('truetype'),
+    url('fonts/icomoon.woff?tq53u0') format('woff'),
+    url('fonts/icomoon.svg?tq53u0#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-microsoftword:before {
+  content: "\e900";
+  color: #2b579a;
+}
+.icon-paypal:before {
+  content: "\e901";
+  color: #00457c;
+}
+.icon-windows:before {
+  content: "\e902";
+  color: #0078d6;
+}
+.icon-ticket:before {
+  content: "\e939";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
 .icon-coin-dollar:before {
   content: "\e93b";
 }
@@ -32,4 +51,7 @@
 }
 .icon-coin-pound:before {
   content: "\e93d";
+}
+.icon-credit-card:before {
+  content: "\e93f";
 }
